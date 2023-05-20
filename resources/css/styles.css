@@ -97,9 +97,11 @@ canvas {
   border: none;
   border-radius: 50px;
 }
+.btn span {
+  position: relative;
+}
 .btn {
   border-radius: 50px;
-  text-align: center;
 }
 .navbar {
   padding: 1rem;
@@ -108,4 +110,7 @@ canvas {
 }
 span {
   color: black;
+}
+.circle {
+  border-radius: 50%;
 }
