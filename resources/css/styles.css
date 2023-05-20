@@ -11,7 +11,6 @@ footer {
 #file {
   visibility: hidden;
 }
-
 canvas {
 	image-rendering: optimizeSpeed;
 	image-rendering: -moz-crisp-edges;
@@ -90,4 +89,23 @@ canvas {
     border-radius: 3px;
     background-color: lightgray;
     -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.form-control {
+  border: none;
+  border-radius: 50px;
+}
+.btn {
+  border-radius: 50px;
+  text-align: center;
+}
+.navbar {
+  padding: 1rem;
+  background-color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+span {
+  color: black;
 }

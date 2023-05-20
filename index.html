@@ -40,16 +40,13 @@
         <a class="navbar-brand" href="#">TerraMap</a>
       </div>
 
-      <div class="collapse navbar-collapse" id="navbar-top">
-        <ul class="nav navbar-nav">
-          <li><a href="windows.html">Windows</a></li>
-        </ul>
+      <div class="collapse navbar-collapse nav-bar" id="navbar-top">
         <form class="navbar-form navbar-left">
           <div class="form-group">
             <input type="file" id="file" name="file" class="form-control" />
           </div>
         </form>
-        <button title="Choose Blocks" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#chooseBlocksModal">Blocks...</button>
+        <button title="Choose Blocks" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#chooseBlocksModal">Blocks</button>
         <button title="Find Previous" onclick="previousBlock()" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-chevron-left"></span></button>
         <button title="Find Next" onclick="nextBlock()" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-chevron-right"></span></button>
         <button title="Highlight All" onclick="highlightAll()" class="btn btn-default navbar-btn"><span class="glyphicon glyphicon-screenshot"></span></button>
@@ -78,9 +75,6 @@
             <ul id="tileInfoList" class="dropdown-menu scrollable-menu" role="menu">
             </ul>
           </li>
-        </ul>
-        <ul class="nav navbar-nav">
-          <li><a href="about.html" target="_blank">Help</a></li>
         </ul>
       </div>
     </div>
@@ -124,6 +118,7 @@
             <strong>MacOS (STEAM cloud)</strong>: ~/Library/Application Support/Steam/userdata/{YOUR_USER_ID}/105600/remote/worlds
           </li>
           <li><strong>Linux</strong>: ~/.local/share/Terraria/Worlds</li>
+          <li><strong>Android</strong>: ~/Android/data/com.and.games505.TerrariaPaid/Worlds</li>
         </ul>
       </ol>
     </div>
@@ -149,16 +144,6 @@
       <div class="collapse navbar-collapse" id="navbar-bottom">
         <p id="status" class="navbar-text navbar-right"></p>
       </div>
-      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4263195580051724"
-     crossorigin="anonymous"></script>
-      <!-- TerraMap Responsive -->
-      <ins class="adsbygoogle"
-          style="display:inline-block;width:728px;height:90px"
-          data-ad-client="ca-pub-4263195580051724"
-          data-ad-slot="9553900295"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
     </div>
   </nav>
 
